@@ -35,7 +35,9 @@ module RunDMS
     end
 
     def debug(message)
-      puts message
+      if @debug
+        puts message
+      end
     end
   end
 end
