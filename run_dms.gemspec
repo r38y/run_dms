@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'run_dms/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "RunDMS"
+  spec.name          = "run_dms"
   spec.version       = RunDMS::VERSION
   spec.authors       = ["Randy Schmidt"]
   spec.email         = ["me@r38y.com"]
